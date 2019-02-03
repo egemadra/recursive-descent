@@ -1,5 +1,5 @@
 {
-  "name": "llpg",
+  "name": "recursive-descent",
   "version": "0.1.0",
   "description": "A recursive-descent parser generation tool",
   "main": "index.js",
