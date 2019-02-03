@@ -6,12 +6,23 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Ege Madra",
+  "author": "Ege Madra <egemadra@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "print-tree": "^0.1.5"
   },
   "devDependencies": {
     "tree-crawl": "^1.0.5"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/egemadra/resursive-descent.git"
+  },
+  "keywords": [
+    "Parser",
+    "Recursive descent",
+    "LL",
+    "Parser generator",
+    "Parser builder"
+  ]
 }
