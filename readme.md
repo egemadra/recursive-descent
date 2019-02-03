@@ -227,7 +227,7 @@ const rootNode = parser.parse();
 ```
 Alternatively:
 ```javascript
-const rootNode = recdec.parse(rules, "3+52);
+const rootNode = recdec.parse(rules, "3+5");
 ```
 options is an optional object with following fields:
 
