@@ -49,7 +49,7 @@ const recdec = require("recursive-descent");
 const rules  = recdec.bnfParse(grammar);
 
 const rootNode = recdec.parse(rules, "3 + 4 * 5");
-recdec.print(root);
+recdec.print(rootNode);
 ```
 Produces:
 ```
