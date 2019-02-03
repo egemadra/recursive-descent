@@ -1,0 +1,17 @@
+{
+  "name": "llpg",
+  "version": "0.1.0",
+  "description": "A recursive-descent parser generation tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ege Madra",
+  "license": "MIT",
+  "dependencies": {
+    "print-tree": "^0.1.5"
+  },
+  "devDependencies": {
+    "tree-crawl": "^1.0.5"
+  }
+}

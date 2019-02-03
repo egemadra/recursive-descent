@@ -1,0 +1,11 @@
+ignore = ~[ ]+~ ;
+
+NUMBER = ~[0-9]*(\.[0-9]+)?~ ;
+
+program: add;
+
+add: mult ( <('+' | '-') mult )* ;
+
+mult: factor ( <('*' | '/') factor )* ;
+
+factor : '-'? (NUMBER | !'(' add !')') ;
